@@ -11,22 +11,78 @@ const items = new Schema({
     },
 
     items: {
-        type: {
-            bananas: {
-                type: Number,
-                default: 0
+        type: Object,
+        default: {
+           
+        bananas: {
+                type: Object,
+                default: {
+                    amount: {
+                        type: Number,
+                        default: 0
+                    },
+                    id: {
+                        type: String,
+                        default: "1"
+                    }
+                }
+            },
+        manzanas: {
+            type: Object,
+            default: {
+                amount: {
+                    type: Number,
+                    default: 0
+                },
+                id: {
+                    type: String,
+                    default: "2"
+                }
             }
+        },
+        fresas: {
+            type: Object,
+            default: {
+              amount: {
+                  type: Number,
+                  default: 0
+              },
+              id: {
+                  type: String,
+                  default: "3"
+              }
+            }
+        },
+        azucar: {
+          type: Object,
+          default: {
+              amount: {
+                  type: Number,
+                  default: 0
+              },
+              id: {
+                  type: String,
+                  default: "4"
+              }
+          }
+        },
+        mermelada: {
+         type: Object,
+         default: {
+             amount: {
+                 type: Number,
+                 default: 0
+             },
+             id: {
+                 type: String,
+                 default: "5"
+             }
+         }
+        }
         }
     },
     
-        bananas: {
-            type: Number,
-            default: 0
-        },
-        manzanas: {
-            type: Number,
-            dafault: 0
-        }
+        
     })
 
 module.exports = model("items", items)
