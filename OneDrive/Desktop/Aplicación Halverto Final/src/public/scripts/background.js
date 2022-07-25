@@ -5,6 +5,7 @@ function Trail(x, y, color1, color2) {
 	this.color2 = color2
 }
 
+
 Trail.prototype.draw = function() {
 	if(this.y < -canvas.height*90/100) {
 		this.y = canvas.height+Math.round(Math.random()*2000)
