@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf8">
+    </head>
+    <body>
+        <p id="info" style="display: none;"></p>
+        <input id="input_text" placeholder="Ingrese el nombre de EpicGames">
+        <select id="select">
+            <option value="EpicGames">Por EpicGames</option>
+            <option value="Twitch">Por Twitch</option>
+        </select>
+        <select id="order-select">
+            <option value="Desordenado">Desordenado</option>
+            <option value="Mayor a menor">Mayor a menor</option>
+            <option value="Menor a mayor">Menor a mayor</option>
+        </select>
+        <button onclick="search()">Buscar</button>
+        <br>
+        <input type="text" id="newProfileName" placeholder="Ingresa el nombre del nuevo perfil">
+        <button onclick="createPlayer()">Crear Perfil</button>
+        <br>
+        <input id="oldId" placeholder="Ingrese la id antigua del usuario">
+        <input id="newId" placeholder="Ingrese la nueva id del usuario">
+        <button onclick="fusionar()">Fusionar</button>
+        <div id="confirm"></div>
+
+        <table id="table" style="width: 100%;"></table>
+    </body>
+    <script src="../public/scripts/searcher.js"></script>
+</html>

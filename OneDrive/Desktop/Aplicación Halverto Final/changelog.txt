@@ -1,0 +1,8 @@
+CHANGELOG CONTROLADOR
+
+Se cambió el funcionamiento de borrar producto ahora se puede seleccionar y darle a borrar
+Se añadio la posibilidad de rechazar o aceptar las compras al rechazarlas se les devolveran las currency a el comprador
+Se añadio la pestaña de ver compras aceptadas y rechazadas donde las verás
+Se cambio el funcionamiento de quitar victorias ahora seleccionas tú la victoria en un select y le das a un botón
+Se añadió el funcionamiento de que al generar un display_name si existe ya se cambie por otro
+Se quito la sensibilidad de mayusculas y minusculas a la hora de buscar en el controlador

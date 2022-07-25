@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+        <p id="info"></p>
+        <input type="text" placeholder="Nombre de el producto" id="name">
+        <br>
+        <textarea placeholder="Ingrese la descripción del producto" id="description"></textarea>
+        <br>
+        <input type="number" placeholder="Ingrese cuantas coronas costará" id="crowns">
+        <br>
+        <input type="text" placeholder="Ingrese la URL de la imagen" id="image">
+        <input type="number" placeholder="Ingrese el procentaje de descuento por ser subscriptor" id="discount">
+        <button onclick="createProduct()">Crear Producto</button>
+        <button onclick="editProduct()">Editar Producto</button>
+        <select id="select"></select>
+        <button onclick="deleteProduct()">Borrar Producto</button>
+    </body>
+    
+    <script src="../public/scripts/newProduct.js"></script>
+</html>

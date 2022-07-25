@@ -1,0 +1,23 @@
+{
+  "name": "snipescontroller",
+  "version": "1.0.0",
+  "description": "An aplication",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.8",
+    "electron-builder": "^23.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.4",
+    "randomly-id-generator": "^1.0.4"
+  },
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  }
+}
